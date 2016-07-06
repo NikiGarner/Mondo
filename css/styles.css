@@ -1,0 +1,94 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+  background: lightgrey;
+}
+
+
+@media only screen and (max-width: 749px){
+
+  .bigDiv {
+    width: 100vw;
+    height: 27vh;
+
+    background: black;
+  }
+
+  .square1 {
+    width: 100vw;
+    height: 12vh;
+
+    background: black;
+
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+
+  .square2 {
+    width: 100vw;
+    height: 12vh;
+
+    background: black;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+
+  .bigDiv {
+    width: 100vw;
+    height: 50vh;
+
+    margin-bottom: 3vh;
+
+    background: black;
+  }
+
+  .square1 {
+    width: 47.5vw;
+    height: 50vh;
+
+    background: black;
+    float: left;
+  }
+
+  .square2 {
+    width: 47.5vw;
+    height: 50vh;
+
+    background: black;
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+
+  .bigDiv {
+    width: 62.5vw;
+    height: 100vh;
+    float: left;
+  }
+
+  .square1 {
+    width: 35vw;
+    height: 49vh;
+
+    background: black;
+    float: right;
+
+    margin-bottom: 1vh;
+
+
+  }
+
+  .square2 {
+    width: 35vw;
+    height: 49vh;
+
+    background: black;
+    float: right;
+
+    margin-top: 1vh;
+  }
+
+}
